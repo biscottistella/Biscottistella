@@ -340,7 +340,7 @@ p{
 @media (max-width: 768px) {
     /* Ajuste del título principal: 250px es gigante para un móvil */
     h2 {
-        font-size: 80px; 
+        font-size: 190px; 
         margin-bottom: 10px;
     }
 
