@@ -1,0 +1,414 @@
+body{
+background-color: darkgray;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'DailyVibes'; 
+  src: url('fuentes/Daily\ Vibes.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  /* Si la fuente está en una carpeta llamada fonts, 
+     cambia la ruta a: url('fonts/Daily Vibes.otf') */
+}
+@font-face {
+  font-family: 'cream'; 
+  src: url('fuentes/PastelTrunk-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  /* Si la fuente está en una carpeta llamada fonts, 
+     cambia la ruta a: url('fonts/Daily Vibes.otf') */
+}
+@font-face {
+  font-family: 'olive'; 
+  src: url('fuentes/Simply\ Olive\ DEMO.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  /* Si la fuente está en una carpeta llamada fonts, 
+     cambia la ruta a: url('fonts/Daily Vibes.otf') */
+}
+.inicio {
+    width: 100%;
+    /* 100vh significa 100% del alto del visor (viewport height) */
+    min-height: 100vh; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    
+    text-align: center;
+    background-color: beige;
+    
+    
+    background-image: url('Fotos/fondo.jpg');
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+img{
+width: 100% ;
+height: 100%;	
+}
+.logo{
+    width: 20% ;
+height: auto;
+
+    border-radius: 100px;
+}
+.budines{
+    width: 80%;
+    height: auto;
+    background-color: #d1a5bc;
+    border-radius: 50px;
+    margin: auto;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: grey;
+    padding: 50px;
+}
+
+.im{
+    border-bottom-left-radius:40px ;
+     border-top-left-radius:40px ;
+}
+h2{
+    text-align: center;
+    font-family:cream, monospace;
+    margin-bottom: 20px;
+    font-size: 250px;
+    color: white;
+    font-weight: 200;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+}
+.vainilla{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.naranja{
+background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+}
+.limon{
+background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+}
+.pera{
+background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-family:DailyVibes, sans-serif ; 
+    color: ghostwhite;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.budi{
+    float: right;
+    height: auto;
+    width: 50%;
+  
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;              /* ¡ESTO crea el espacio donde se ve el fondo! */
+    justify-content: center;
+}
+.bu{
+    height: auto;
+    border-radius: 10px;
+    
+    width: 50%;
+    float: left;
+    height: auto;
+}
+p{
+    font-family: olive, monospace;
+    font-size: 30px;
+    color: white;
+}
+/* --- RESPONSIVE DESIGN --- */
+
+.im2{
+    border-bottom-right-radius:40px ;
+     border-top-right-radius:40px ;
+}
+.co{
+    height: auto;
+    border-radius: 10px;
+    
+    width: 50%;
+    float: right;
+    height: auto;
+}
+.cooki{
+    float: left;
+    height: auto;
+    width: 50%;
+  
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;              /* ¡ESTO crea el espacio donde se ve el fondo! */
+    justify-content: center;
+}
+.choco{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-left-radius:40px ;
+    border-bottom-left-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.cream{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-left-radius:40px ;
+    border-bottom-left-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.vainillac{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-left-radius:40px ;
+    border-bottom-left-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.red{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-left-radius:40px ;
+    border-bottom-left-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.boxes{
+    float: right;
+    height: auto;
+    width: 50%;
+  
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap: 100px;              /* ¡ESTO crea el espacio donde se ve el fondo! */
+    justify-content: center;
+    padding-top:100px ;
+}
+/* --- AJUSTES DE RESPONSIVE DESIGN (Celulares y Tablets) --- */
+.box1{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+.box2{
+ background-color: #9e4c81;
+    padding: 5px 10px; /* Padding arriba/abajo y a los lados */
+      border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+    
+    /* CENTRADO DE TEXTO */
+    text-align: center; 
+    
+    /* CENTRADO DEL CONTENEDOR */
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra los elementos hijos (h3 y p) */
+    justify-content: center;
+   
+ 
+}
+/* --- RESPONSIVE DESIGN --- */
+
+@media (max-width: 768px) {
+    /* Ajuste del título principal: 250px es gigante para un móvil */
+    h2 {
+        font-size: 190px; 
+        margin-bottom: 10px;
+    }
+
+    /* El contenedor principal de los productos */
+    .budines {
+        width: 95%;
+        padding: 20px;
+        border-width: 5px; /* Reducimos el grosor del borde */
+    }
+
+    /* Convertimos los Flexbox de horizontal a vertical */
+    .info {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    /* Hacemos que las imágenes y los textos ocupen el 100% del ancho */
+    .bu, .budi, .co, .cooki, .boxes {
+        width: 100% !important;
+        float: none !important; /* Eliminamos el float para que no se rompa el diseño */
+        display: block;
+    }
+
+    /* Ajuste de imágenes para que no se vean estiradas */
+    .im, .im2 {
+        border-radius: 20px !important; /* Bordes uniformes en móvil */
+        margin-bottom: 15px;
+    }
+
+    /* Ajuste de los contenedores de texto (vainilla, choco, etc.) */
+    .vainilla, .naranja, .limon, .pera, 
+    .choco, .cream, .vainillac, .red, 
+    .box1, .box2 {
+        border-radius: 20px !important; /* Quitamos las esquinas solo de un lado */
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Ajuste de textos */
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /* El logo en el inicio */
+    .logo {
+        width: 50%; /* Más grande en móviles para que se aprecie */
+    }
+
+    /* Espaciado en la sección de cajas */
+    .boxes {
+        gap: 20px;
+        padding-top: 20px;
+    }
+}
+
+/* Ajuste extra para pantallas muy pequeñas (iPhone SE, etc.) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 50px;
+    }
+    
+    .logo {
+        width: 70%;
+    }
+}
