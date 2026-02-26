@@ -405,7 +405,8 @@ p{
 /* Ajuste extra para pantallas muy pequeñas (iPhone SE, etc.) */
 @media (max-width: 480px) {
     h2 {
-        font-size: 50px;
+        font-size: 150px;
+        margin: 10px;
     }
     
     .logo {
